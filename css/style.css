@@ -43,6 +43,7 @@ i.fa-bars {
 
 
 header nav.mobile ul {
+    display: none;
     z-index: 999;
     text-align: center;
     width: 100%;
@@ -481,7 +482,7 @@ footer .footer-block {
     }
 
     header nav.mobile {
-        display: none;
+        display: block;
     }
 
     section.videos {

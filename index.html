@@ -8,11 +8,11 @@
     <meta name="keywords" content="palavras, chave, separadas, por, virgula">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
     <title>Projeto 04</title>
-    <link href="style.css" rel="stylesheet" type="text/css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/217ded35b7.js" crossorigin="anonymous"></script>
+    <link href="css/style.css" rel="stylesheet" type="text/css">
 </head>
 
 <body>
@@ -23,20 +23,20 @@
             </div><!--logo-->
             <nav class="desktop">
                 <ul>
-                    <li><a href="">quem sou</a></li>
-                    <li><a href="">depoimentos</a></li>
-                    <li><a href="">sobre</a></li>
-                    <li><a href="">contatos</a></li>
+                    <li><a href="#sobre">quem sou</a></li>
+                    <li><a href="#depoimentos">depoimentos</a></li>
+                    <li><a href="#videos">Videos</a></li>
+                    <li><a href="#contato">contatos</a></li>
                 </ul>
             </nav>
 
             <nav class="mobile">
                 <i class="fa-solid fa-bars"></i>
                 <ul>
-                    <li><a href="">quem sou</a></li>
-                    <li><a href="">depoimentos</a></li>
-                    <li><a href="">sobre</a></li>
-                    <li><a href="">contatos</a></li>
+                    <li><a href="#sobre">quem sou</a></li>
+                    <li><a href="#depoimentos">depoimentos</a></li>
+                    <li><a href="#videos">Videos</a></li>
+                    <li><a href="#contato">contatos</a></li>
                 </ul>
             </nav>
             <div class="clear"></div><!--clear-->
@@ -107,7 +107,7 @@
         </div><!--center-->
     </section><!--servicos-->
 
-    <section class="perfil-center">
+    <section id="sobre" class="perfil-center">
         <div class="center">
             <div class="perfil-wraper">
                 <div class="perfil-wraper2">
@@ -150,7 +150,7 @@
         </div><!--center-->
     </section><!--perfil-center-->
 
-    <section class="videos">
+    <section id="videos" class="videos">
         <div class="center">
             <div class="box-video">
                 <iframe src="https://www.youtube.com/embed/Sst-_9xeuU4"
@@ -262,7 +262,7 @@
         </div><!--center-->
     </section><!--tratamentos-->
 
-    <section class="depoimentos">
+    <section id="depoimentos" class="depoimentos">
         <h2>Depoimentos</h2>
         <div class="center">
             <div class="depoimento-single">
@@ -317,7 +317,7 @@
         </div><!--facebook-chamada-->
         <div class="clear"></div>
 
-        <div class="contato">
+        <div id="contato" class="contato">
             <h2>Contato</h2>
             <form>
                 <div class="form-wraper w100">
@@ -375,7 +375,8 @@
             <div class="clear"></div>
         </div><!--center-->
     </footer>
-
+    <script src="js/jquery-3.7.0.min.js"></script>
+    <script src="js/function.js"></script>
 </body>
 
 </html>
