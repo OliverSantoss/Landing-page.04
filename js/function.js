@@ -45,4 +45,42 @@ $(function () {
             }
         ]
     });
+
+    $('.tratamentos .center').slick({
+        centerMode: false,
+        slidesToShow: 3,
+        arrows: false,
+        infinite: false,
+        responsive: [
+            {
+                breakpoint: 768,
+                settings: {
+                    centerMode: false,
+                    arrows: false,
+                    infinite: false,
+                    dots: true,
+                    slidesToShow: 2,
+                }
+            },
+
+            {
+                breakpoint: 480,
+                settings: {
+                    centerMode: false,
+                    arrows: false,
+                    infinite: false,
+                    dots: true,
+                    slidesToShow: 1
+                }
+            }
+        ]
+    });
+
+    $('.depoimentos .center').slick({
+        centerMode: false,
+        arrows: false,
+        infinite: false,
+        dots: true,
+        slidesToShow: 1
+    });
 });
